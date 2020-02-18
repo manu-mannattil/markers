@@ -1,8 +1,8 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!--
   Arrow head from The Feynman Lectures, New Millennium Ed.
   This is a simple, solid, isosceles triangle.
 -->
-<svg xmlns="http://www.w3.org/2000/svg" height="10" width="20">
-  <path d="M3-1.6-3 0 3 1.6Z" style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt"/>
+<svg width="20" height="10" xmlns="http://www.w3.org/2000/svg">
+  <path d="M3-1.6-3 0 3 1.6Z" style="fill-rule:evenodd;stroke-width:1pt;stroke:#000"/>
 </svg>

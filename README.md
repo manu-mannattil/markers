@@ -3,8 +3,7 @@
 A set of custom markers (mostly arrows) for Inkscape.  These markers
 were procured from various sources (see the comments in the SVG files in
 the `src` directory), were converted to Inkscape markers using the
-technique described in [this video][2], optimized using [SVGOMG][1],
-and were finally cleaned up manually.
+technique described in [this video][1] and cleaned up using [Scour][2].
 
 ## Usage
 
@@ -22,5 +21,5 @@ if necessary.
 
 Public domain.  See the file UNLICENSE for more details.
 
-[1]: https://jakearchibald.github.io/svgomg/
-[2]: https://www.youtube.com/watch?v=MgT-0q0wjLo
+[1]: https://www.youtube.com/watch?v=MgT-0q0wjLo
+[2]: https://github.com/scour-project/scour
