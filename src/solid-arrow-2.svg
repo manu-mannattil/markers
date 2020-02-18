@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<!--
+  Arrow head from David Griffiths's, "Introduction to Electrodynamics", 4/e.
+  This is a simple, solid, isosceles triangle with slightly curved sides.
+-->
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="10">
+  <path d="M.176 1.014c1.628.492 2.682.943 3.988 1.466l-.003-4.96c-.468.223-2.36.977-3.988 1.469-1.74.525-3.314.885-4.337 1.011 1.023.131 2.6.491 4.337 1.014" style="fill-rule:evenodd;stroke-width:0pt"/>
+</svg>
