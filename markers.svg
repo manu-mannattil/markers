@@ -4,6 +4,40 @@
      id="InkscapeMarkers">
   <defs id="defs3">
 
+    <!-- Asymptote arrowheads -->
+
+    <!-- texhead -->
+    <marker style="overflow:visible" id="asy-texhead-start" refX="0.0" refY="0.0" orient="auto" inkscape:stockid="asy-texhead-start">
+      <path transform="scale(1.0) translate(0.32,0)" d="m-0.3 0.499c1.87 1.38 2.7 3.45 2.7 3.65 0 0.226-0.2 0.3-0.375 0.3-0.275 0-0.325-0.125-0.4-0.25-0.375-0.85-1.17-2.68-3.68-3.85-0.3-0.149-0.35-0.174-0.35-0.349s0.05-0.201 0.35-0.349c2.5-1.18 3.3-3 3.68-3.85 0.075-0.125 0.125-0.25 0.4-0.25 0.175 0 0.375 0.0744 0.375 0.3 0 0.199-0.825 2.27-2.7 3.65z" style="fill-rule:evenodd;stroke-width:0pt"/>
+    </marker>
+    <marker style="overflow:visible" id="asy-texhead-end" refX="0.0" refY="0.0" orient="auto" inkscape:stockid="asy-texhead-end">
+      <path transform="scale(1.0) rotate(180) translate(0.32,0)" d="m-0.3 0.499c1.87 1.38 2.7 3.45 2.7 3.65 0 0.226-0.2 0.3-0.375 0.3-0.275 0-0.325-0.125-0.4-0.25-0.375-0.85-1.17-2.68-3.68-3.85-0.3-0.149-0.35-0.174-0.35-0.349s0.05-0.201 0.35-0.349c2.5-1.18 3.3-3 3.68-3.85 0.075-0.125 0.125-0.25 0.4-0.25 0.175 0 0.375 0.0744 0.375 0.3 0 0.199-0.825 2.27-2.7 3.65z" style="fill-rule:evenodd;stroke-width:0pt"/>
+    </marker>
+
+    <!-- simplehead -->
+    <marker style="overflow:visible" id="asy-simplehead-start" refX="0.0" refY="0.0" orient="auto" inkscape:stockid="asy-simplehead-start">
+      <path transform="scale(1.0) translate(5.33,0)" d="m7.24 3.88-14.5-3.88v0l14.5-3.88" style="fill:none;stroke-linecap:round;stroke-linejoin:round;stroke:#000;stroke-width:1px"/>
+    </marker>
+    <marker style="overflow:visible" id="asy-simplehead-end" refX="0.0" refY="0.0" orient="auto" inkscape:stockid="asy-simplehead-end">
+      <path transform="scale(1.0) rotate(180) translate(5.33,0)" d="m7.24 3.88-14.5-3.88v0l14.5-3.88" style="fill:none;stroke-linecap:round;stroke-linejoin:round;stroke:#000;stroke-width:1px"/>
+    </marker>
+
+    <!-- hookhead -->
+    <marker style="overflow:visible" id="asy-hookhead-start" refX="0.0" refY="0.0" orient="auto" inkscape:stockid="asy-hookhead-start">
+      <path transform="scale(1.0) translate(0,0)" d="m-9.5-2.68e-4c6.73 0.588 13.2 2.71 19 6.21l-4-6.21v0l4-6.21c-5.77 3.5-12.3 5.62-19 6.21z" style="stroke-linecap:round;stroke-linejoin:round;stroke:#000;stroke-width:1px;fill-rule:evenodd"/>
+    </marker>
+    <marker style="overflow:visible" id="asy-hookhead-end" refX="0.0" refY="0.0" orient="auto" inkscape:stockid="asy-hookhead-end">
+      <path transform="scale(1.0) rotate(180) translate(0,0)" d="m-9.5-2.68e-4c6.73 0.588 13.2 2.71 19 6.21l-4-6.21v0l4-6.21c-5.77 3.5-12.3 5.62-19 6.21z" style="stroke-linecap:round;stroke-linejoin:round;stroke:#000;stroke-width:1px;fill-rule:evenodd"/>
+    </marker>
+
+    <!-- defaulthead -->
+    <marker style="overflow:visible" id="asy-defaulthead-start" refX="0.0" refY="0.0" orient="auto" inkscape:stockid="asy-defaulthead-start">
+      <path transform="scale(1.0) translate(0,0)" d="m-7.5 1.7e-7 15 4.02v-8.04z" style="fill-rule:evenodd;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke:#000"/>
+    </marker>
+    <marker style="overflow:visible" id="asy-defaulthead-end" refX="0.0" refY="0.0" orient="auto" inkscape:stockid="asy-defaulthead-end">
+      <path transform="scale(1.0) rotate(180) translate(0,0)" d="m-7.5 1.7e-7 15 4.02v-8.04z" style="fill-rule:evenodd;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke:#000"/>
+    </marker>
+
     <!-- Arrows -->
 
     <!-- arrow-1-1 -->

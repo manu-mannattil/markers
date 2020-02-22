@@ -3,13 +3,17 @@
 # svgopt -- run scour with custom settings
 #
 
-scour                             \
-    --disable-style-to-xml        \
-    --enable-id-stripping         \
-    --nindent=2                   \
-    --remove-descriptions         \
-    --remove-descriptive-elements \
-    --remove-metadata             \
-    --remove-titles               \
-    --set-precision=3             \
-    --shorten-ids "$@"
+for svg
+do
+    scour                             \
+        --disable-style-to-xml        \
+        --enable-id-stripping         \
+        --nindent=2                   \
+        --remove-descriptions         \
+        --remove-descriptive-elements \
+        --remove-metadata             \
+        --remove-titles               \
+        --set-precision=3             \
+        --shorten-ids "$svg" >"/tmp/svgopt.${PPID}.svg"
+    mv -f "/tmp/svgopt.${PPID}.svg" "$svg"
+done

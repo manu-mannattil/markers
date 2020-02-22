@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Asymptote arrowhead "SimpleHead".  This arrowhead has to be
+  translated by (5.33, 0) so that the gap between the
+  arrowhead and the curve disappears.
+-->
+<svg width="20" height="10" xmlns="http://www.w3.org/2000/svg">
+  <path d="m7.24 3.88-14.5-3.88v0l14.5-3.88" style="fill:none;stroke-linecap:round;stroke-linejoin:round;stroke:#000;stroke-width:1px"/>
+</svg>
