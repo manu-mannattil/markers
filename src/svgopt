@@ -14,6 +14,6 @@ do
         --remove-metadata             \
         --remove-titles               \
         --set-precision=3             \
-        --shorten-ids "$svg" >"/tmp/svgopt.${PPID}.svg"
+        --shorten-ids "$svg" >"/tmp/svgopt.${PPID}.svg" &&
     mv -f "/tmp/svgopt.${PPID}.svg" "$svg"
 done

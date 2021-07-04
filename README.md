@@ -9,15 +9,15 @@ markers.
 
 ## Usage
 
-Copy/merge the contents of the file `markers.svg` to the global markers
-file used by Inkscape located at:
+The global markers file used by Inkscape located at:
 
     /usr/share/inkscape/markers/markers.svg     # GNU/Linux
     ...\Program Files\Inkscape\share\markers    # Windows
 
-Note that the `markers.svg` file of this repository does not have all
-the default markers that Inkscape comes with, thus merge the two files
-if necessary.
+On GNU/Linux, to overwrite the [default Inkscape markers][4] with the
+ones in this repository, run `make overwrite`.  If you want to also use
+the default markers along with the new markers, run `make merge`.  Run
+`make restore` to go back to the default ones.
 
 ## License
 
@@ -26,3 +26,4 @@ Public domain.  See the file UNLICENSE for more details.
 [1]: https://www.youtube.com/watch?v=MgT-0q0wjLo
 [2]: https://github.com/scour-project/scour
 [3]: https://asymptote.sourceforge.io/doc/draw.html
+[4]: https://gitlab.com/inkscape/inkscape/-/raw/master/share/markers/markers.svg
